@@ -1,12 +1,12 @@
-import HamburgerMenu from "./components/navbar/Hamburger";
+import ResponsiveNav from "./components/navbar/ResponsiveNav";
 
 const App = () => {
   return (
     <div
-      className="bg-slate-500 w-screen h-screen grid place-content-center
+      className="bg-slate-500 w-screen h-[1200px] 
     "
     >
-      <HamburgerMenu />
+      <ResponsiveNav />
     </div>
   );
 };

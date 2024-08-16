@@ -1,6 +1,6 @@
 .titleLogo {
   width: 150px;
-  height: 63.497px;
+  height: 45px;
   flex-shrink: 0;
   color: var(--secundario, #fff);
   text-align: center;
@@ -38,9 +38,10 @@
 }
 
 /* Tamaño mediano (tablets) */
-@media (min-width: 640px) {
+@media (min-width: 768px) {
   .titleLogo {
     width: 198.806px;
+    height: auto;
     font-size: 25px;
     letter-spacing: 10px;
   }
@@ -52,7 +53,7 @@
   }
   .titles {
     width: 400px;
-    height: 51.163px;
+    height: 100%;
     font-size: 40px;
     letter-spacing: 4px;
   }
