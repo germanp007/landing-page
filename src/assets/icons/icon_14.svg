@@ -1,0 +1,26 @@
+<svg width="121" height="169" viewBox="0 0 121 169" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M88 95V52H21V95" stroke="url(#paint0_linear_69_1672)" stroke-width="5"/>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M75 95H19V106H75V95ZM58 101C58 102.657 56.6569 104 55 104C53.3431 104 52 102.657 52 101C52 99.3431 53.3431 98 55 98C56.6569 98 58 99.3431 58 101Z" fill="#3873FF"/>
+<path d="M47 105H63C63 107.939 64.9999 110.5 67.8507 111.213L73 112.5V115H37V112.5L42.1493 111.213C45.0001 110.5 47 107.939 47 105Z" fill="#3873FF"/>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M79 84H103V120H79V84ZM82 87H100V112.5H82V87ZM93.1817 116.182C93.1817 117.387 92.2049 118.364 90.9999 118.364C89.7949 118.364 88.8181 117.387 88.8181 116.182C88.8181 114.977 89.7949 114 90.9999 114C92.2049 114 93.1817 114.977 93.1817 116.182Z" fill="#3873FF"/>
+<path d="M113 71.5V130H79" stroke="white" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M74 135C76.7614 135 79 132.761 79 130C79 127.239 76.7614 125 74 125C71.2386 125 69 127.239 69 130C69 132.761 71.2386 135 74 135Z" stroke="white" stroke-width="3"/>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M113 71C115.761 71 118 68.7614 118 66C118 63.2386 115.761 61 113 61C110.239 61 108 63.2386 108 66C108 68.7614 110.239 71 113 71Z" stroke="white" stroke-width="3"/>
+<path d="M9 97.5V39H43" stroke="white" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M48 34C45.2386 34 43 36.2386 43 39C43 41.7614 45.2386 44 48 44C50.7614 44 53 41.7614 53 39C53 36.2386 50.7614 34 48 34Z" stroke="white" stroke-width="3"/>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M9 98C6.23858 98 4 100.239 4 103C4 105.761 6.23858 108 9 108C11.7614 108 14 105.761 14 103C14 100.239 11.7614 98 9 98Z" stroke="white" stroke-width="3"/>
+<rect opacity="0.1" x="10" y="86.8762" width="10.381" height="10.381" transform="rotate(-90 10 86.8762)" fill="#3CE1CD"/>
+<rect opacity="0.1" x="4" y="71.381" width="10.381" height="10.381" transform="rotate(-90 4 71.381)" fill="#3CE1CD"/>
+<rect opacity="0.4" x="23.4951" y="86.8762" width="10.381" height="10.381" transform="rotate(-90 23.4951 86.8762)" fill="#3CE1CD"/>
+<rect opacity="0.4" x="17.4951" y="71.381" width="10.381" height="10.381" transform="rotate(-90 17.4951 71.381)" fill="#3CE1CD"/>
+<rect opacity="0.7" x="36.9902" y="86.8762" width="10.381" height="10.381" transform="rotate(-90 36.9902 86.8762)" fill="#3CE1CD"/>
+<rect opacity="0.7" x="30.9902" y="71.381" width="10.381" height="10.381" transform="rotate(-90 30.9902 71.381)" fill="#3CE1CD"/>
+<rect x="50.4854" y="86.8762" width="10.381" height="10.381" transform="rotate(-90 50.4854 86.8762)" fill="#3CE1CD"/>
+<rect x="44.4854" y="71.381" width="10.381" height="10.381" transform="rotate(-90 44.4854 71.381)" fill="#3CE1CD"/>
+<defs>
+<linearGradient id="paint0_linear_69_1672" x1="54.5" y1="52" x2="54.5" y2="95" gradientUnits="userSpaceOnUse">
+<stop stop-color="#3873FF"/>
+<stop offset="1" stop-color="#3873FF" stop-opacity="0"/>
+</linearGradient>
+</defs>
+</svg>

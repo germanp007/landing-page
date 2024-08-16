@@ -1,0 +1,49 @@
+.paragraph {
+  width: 174px;
+  height: 259.761px;
+  flex-shrink: 0;
+  color: #2d2d2d;
+  font-family: Roboto;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 30px; /* 200% */
+}
+.paragraphCard {
+  display: none;
+}
+/* Tamaño mediano (tablets) */
+@media (min-width: 640px) {
+  .paragraph {
+    width: 372px;
+    min-height: 184px;
+    font-size: 24px;
+    line-height: 42px;
+  }
+  .paragraphCard {
+    display: block;
+    width: 304px;
+    height: 187px;
+    flex-shrink: 0;
+    color: #2d2d2d;
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%; /* 24px */
+  }
+}
+
+/* Tamaño grande (desktops) */
+@media (min-width: 900px) {
+  .paragraphCard {
+    width: 271px;
+    height: 104px;
+  }
+  .paragraph {
+    width: 500px;
+    height: 183px;
+    font-size: 25px;
+    line-height: 42px; /* 168% */
+  }
+}

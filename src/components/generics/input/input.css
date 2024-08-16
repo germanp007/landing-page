@@ -1,0 +1,51 @@
+.inputClass,
+.inputEmail {
+  flex-shrink: 0;
+  border: 0.3px solid black;
+  border-radius: 10px;
+}
+
+.inputClass {
+  width: 154px;
+  height: 40px;
+}
+.inputLabel {
+  width: 141px;
+  height: 22px;
+  flex-shrink: 0;
+  color: var(--1, #3157a7);
+  font-family: "Bebas Neue";
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 1.8px;
+}
+.inputEmail {
+  width: 241px;
+  height: 40px;
+}
+
+.textareaClass {
+  width: 327px;
+  height: 133px;
+
+  flex-shrink: 0;
+  border-radius: 5px;
+  border: 1px solid #000;
+  background: rgba(217, 217, 217, 0);
+}
+
+/* Tamaño mediano (tablets) */
+@media (min-width: 640px) {
+  .inputClass {
+    width: 159px;
+  }
+  .inputEmail {
+    width: 256px;
+  }
+  .textareaClass {
+    width: 447px;
+    height: 156px;
+  }
+}

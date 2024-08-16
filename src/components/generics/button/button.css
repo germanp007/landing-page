@@ -1,0 +1,64 @@
+.button,
+.send,
+.servicios {
+  display: flex;
+  padding: 16px 50px;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  flex-shrink: 0;
+  border-radius: 10px;
+  background: var(--1, #3157a7);
+  color: var(--secundario, #fff);
+  text-align: center;
+  font-feature-settings: "liga" off;
+  font-family: Poppins;
+  font-size: 17px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 24px;
+}
+.button {
+  width: 110px;
+  height: 48px;
+}
+.send {
+  width: 110px;
+  height: 48px;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 600;
+}
+.servicios {
+  width: 110px;
+  height: 48px;
+  padding: 16px 10px;
+  font-size: 14px;
+  font-weight: 400; /* 171.429% */
+}
+
+/* Tamaño mediano (tablets) */
+@media (min-width: 640px) {
+  .servicios {
+    width: 164px;
+    height: 60px;
+    font-size: 18px;
+    font-weight: 600;
+  }
+  .send {
+    width: 162px;
+    height: 53px;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+  }
+}
+/* Tamaño grande (desktops) */
+@media (min-width: 900px) {
+  .servicios {
+    width: 190px;
+    height: 60px;
+    font-size: 20px;
+    font-weight: 600;
+  }
+}

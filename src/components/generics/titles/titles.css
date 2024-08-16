@@ -1,0 +1,77 @@
+.titleLogo {
+  width: 150px;
+  height: 63.497px;
+  flex-shrink: 0;
+  color: var(--secundario, #fff);
+  text-align: center;
+  font-family: "Bebas Neue";
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 7.2px;
+}
+
+.titles {
+  width: 190px;
+  height: 27.419px;
+  flex-shrink: 0;
+  color: var(--1, #3157a7);
+  font-family: "Bebas Neue";
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 2.2px;
+}
+.titleMain {
+  width: 280px;
+  height: 44.737px;
+  flex-shrink: 0;
+  color: var(--secundario, #fff);
+  font-family: "Bebas Neue";
+  font-size: 26px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 2.6px;
+}
+
+/* Tamaño mediano (tablets) */
+@media (min-width: 640px) {
+  .titleLogo {
+    width: 198.806px;
+    font-size: 25px;
+    letter-spacing: 10px;
+  }
+  .titleMain {
+    width: 614px;
+    height: 90px;
+    font-size: 60px;
+    letter-spacing: 6px;
+  }
+  .titles {
+    width: 400px;
+    height: 51.163px;
+    font-size: 40px;
+    letter-spacing: 4px;
+  }
+}
+
+@media (min-width: 900px) {
+  .titleLogo {
+    width: 198.806px;
+    font-size: 23px;
+    letter-spacing: 9.2px;
+  }
+  .titleMain {
+    width: 363px;
+    height: 141px;
+  }
+  .titles {
+    width: 400px;
+    height: 56px;
+    font-size: 50px;
+    letter-spacing: 5px;
+  }
+}
