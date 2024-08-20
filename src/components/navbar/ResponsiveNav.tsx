@@ -17,8 +17,22 @@ const ResponsiveNav = () => {
       <nav className="w-screen h-32 flex items-center justify-evenly fixed">
         <img src={icono_original} className="size-[50px] md:size-[68px]" />
         <TitleLogo>Tel & Tech Services</TitleLogo>
+
+        <ul className="hidden px-4 py-8 lg:flex gap-8 font-medium text-xl text-white">
+          <li>Sobre Nosotros</li>
+          <li>Tecnologías</li>
+          <li>Contáctanos</li>
+        </ul>
+        <select name="idioma">
+          <option value="es">Español</option>
+          <option value="in">Ingles</option>
+        </select>
         <Button className="hidden sm:flex">Home</Button>
-        <HamburgerMenu toggle={toggleMenu} isOpen={isOpen} />
+        <HamburgerMenu
+          toggle={toggleMenu}
+          isOpen={isOpen}
+          classname="lg:hidden"
+        />
       </nav>
 
       <div
@@ -26,11 +40,11 @@ const ResponsiveNav = () => {
           isOpen ? "-translate-x-5" : "translate-x-full"
         }`}
       >
-        <ul className="px-4 py-8">
+        <ul className="px-4 py-8 flex  flex-col gap-12 text-primary font-medium md:text-xl">
           <ToggleLanguage />
           <li>Sobre Nosotros</li>
-          <li>Tecnologias</li>
-          <li>Contactanos</li>
+          <li>Tecnologías</li>
+          <li>Contáctanos</li>
         </ul>
       </div>
     </>

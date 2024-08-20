@@ -12,7 +12,7 @@ const ToggleLanguage: React.FC = () => {
     setSelected(language);
   };
   return (
-    <div className="w-[192px] h-[41px] flex m-auto">
+    <div className="w-[192px] h-[41px] flex m-auto md:w-[280px]">
       {languages.map((element) => (
         <button
           key={element.value}
