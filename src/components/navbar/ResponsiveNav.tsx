@@ -3,18 +3,15 @@ import icono_original from "../../assets/logos/icono_original.png";
 import Button from "../generics/button/Button";
 import { TitleLogo } from "../generics/titles/Titles";
 import HamburgerMenu from "./Hamburger";
+import ToggleLanguage from "../generics/toggle/ToggleLanguage";
 
 const ResponsiveNav = () => {
   const [isOpen, setIsOpen] = useState(false);
-  const [selected, setSelected] = useState("English");
 
   const toggleMenu = () => {
     setIsOpen(!isOpen);
   };
 
-  const selectLanguage = (language: string) => {
-    setSelected(language);
-  };
   return (
     <>
       <nav className="w-screen h-32 flex items-center justify-evenly fixed">
@@ -30,28 +27,7 @@ const ResponsiveNav = () => {
         }`}
       >
         <ul className="px-4 py-8">
-          <div className="w-[192px] h-[41px] flex m-auto">
-            <button
-              className={`flex-1 h-full grid place-content-center rounded-s-full ${
-                selected === "English"
-                  ? "bg-primary text-white"
-                  : "bg-white text-primary"
-              } border-2 border-primary transition-all duration-500 ease-in-out`}
-              onClick={() => selectLanguage("English")}
-            >
-              Ingles
-            </button>
-            <button
-              className={`flex-1 h-full grid place-content-center rounded-e-full ${
-                selected === "Spanish"
-                  ? "bg-primary text-white"
-                  : "bg-white text-primary"
-              } border-2 border-primary transition-all duration-500 ease-in-out`}
-              onClick={() => selectLanguage("Spanish")}
-            >
-              Español
-            </button>
-          </div>
+          <ToggleLanguage />
           <li>Sobre Nosotros</li>
           <li>Tecnologias</li>
           <li>Contactanos</li>
