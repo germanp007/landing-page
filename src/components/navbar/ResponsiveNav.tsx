@@ -19,7 +19,7 @@ const ResponsiveNav = () => {
         <img src={icono_original} className="size-[50px] md:size-[68px]" />
         <TitleLogo>Tel & Tech Services</TitleLogo>
 
-        <ul className="hidden px-4 py-8 lg:flex gap-8 font-medium text-xl text-white">
+        <ul className="hidden px-4 py-8 lg:flex gap-16 font-medium text-xl text-white">
           <li>Sobre Nosotros</li>
           <li>Tecnologías</li>
           <li>Contáctanos</li>
