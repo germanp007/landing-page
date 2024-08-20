@@ -6,9 +6,14 @@ import HamburgerMenu from "./Hamburger";
 
 const ResponsiveNav = () => {
   const [isOpen, setIsOpen] = useState(false);
+  const [selected, setSelected] = useState("English");
 
   const toggleMenu = () => {
     setIsOpen(!isOpen);
+  };
+
+  const selectLanguage = (language: string) => {
+    setSelected(language);
   };
   return (
     <>
@@ -20,10 +25,38 @@ const ResponsiveNav = () => {
       </nav>
 
       <div
-        className={`fixed top-32 right-1 z-30 bg-white rounded-xl h-[70vh]  transition-all duration-500 m-4 ${
-          isOpen ? "w-[247px] " : "w-0"
+        className={`bg-white rounded-xl w-[247px] h-[60vh] fixed right-0 top-32 transform transition-transform duration-300 ease-in-out md:w-[363px] md:h-[75vh] ${
+          isOpen ? "-translate-x-5" : "translate-x-full"
         }`}
-      ></div>
+      >
+        <ul className="px-4 py-8">
+          <div className="w-[192px] h-[41px] flex m-auto">
+            <button
+              className={`flex-1 h-full grid place-content-center rounded-s-full ${
+                selected === "English"
+                  ? "bg-primary text-white"
+                  : "bg-white text-primary"
+              } border-2 border-primary transition-all duration-500 ease-in-out`}
+              onClick={() => selectLanguage("English")}
+            >
+              Ingles
+            </button>
+            <button
+              className={`flex-1 h-full grid place-content-center rounded-e-full ${
+                selected === "Spanish"
+                  ? "bg-primary text-white"
+                  : "bg-white text-primary"
+              } border-2 border-primary transition-all duration-500 ease-in-out`}
+              onClick={() => selectLanguage("Spanish")}
+            >
+              Español
+            </button>
+          </div>
+          <li>Sobre Nosotros</li>
+          <li>Tecnologias</li>
+          <li>Contactanos</li>
+        </ul>
+      </div>
     </>
   );
 };
