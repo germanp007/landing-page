@@ -4,6 +4,7 @@ import Button from "../generics/button/Button";
 import { TitleLogo } from "../generics/titles/Titles";
 import HamburgerMenu from "./Hamburger";
 import ToggleLanguage from "../generics/toggle/ToggleLanguage";
+import SelectLanguage from "../select/SelectLanguage";
 
 const ResponsiveNav = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -23,10 +24,7 @@ const ResponsiveNav = () => {
           <li>Tecnologías</li>
           <li>Contáctanos</li>
         </ul>
-        <select name="idioma">
-          <option value="es">Español</option>
-          <option value="in">Ingles</option>
-        </select>
+        <SelectLanguage />
         <Button className="hidden sm:flex">Home</Button>
         <HamburgerMenu
           toggle={toggleMenu}
