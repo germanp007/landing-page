@@ -1,6 +1,6 @@
 .paragraph {
-  width: 174px;
-  height: 259.761px;
+  width: auto;
+  height: auto;
   flex-shrink: 0;
   color: #2d2d2d;
   font-family: Roboto;
@@ -16,7 +16,7 @@
 @media (min-width: 640px) {
   .paragraph {
     width: 372px;
-    min-height: 184px;
+    height: auto;
     font-size: 24px;
     line-height: 42px;
   }

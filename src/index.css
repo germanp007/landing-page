@@ -11,12 +11,20 @@ html {
 .hero-section {
   background-image: url("./assets/images/background-tablet.jpg");
   background-size: cover;
-  background-position: bottom;
+  background-position: center;
   background-repeat: no-repeat;
 }
 
-@media (min-width: 600px) {
+/* @media (min-width: 450px) {
+  .hero-section {
+    /* background-image: url("./assets/images/background-desktop.jpg"); 
+    /* background-position: center; 
+  }
+} */
+
+@media (min-width: 560px) {
   .hero-section {
     background-image: url("./assets/images/background-desktop.jpg");
+    background-position: bottom;
   }
 }

@@ -2,19 +2,19 @@ import React, { ReactNode } from "react";
 import "./paragraph.css";
 interface ParagraphProps {
   children: ReactNode;
-  classname?: string;
+  className?: string;
 }
 
 export const Paragraph: React.FC<ParagraphProps> = ({
   children,
-  classname,
+  className,
 }) => {
-  return <p className={`${classname} paragraph`}>{children}</p>;
+  return <p className={`${className} paragraph`}>{children}</p>;
 };
 
 export const ParagraphCard: React.FC<ParagraphProps> = ({
   children,
-  classname,
+  className,
 }) => {
-  return <p className={`${classname} paragraphCard`}>{children}</p>;
+  return <p className={`${className} paragraphCard`}>{children}</p>;
 };

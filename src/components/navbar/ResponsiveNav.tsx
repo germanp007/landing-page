@@ -1,6 +1,6 @@
 import { useState } from "react";
 import icono_original from "../../assets/logos/icono_original.png";
-import Button from "../generics/button/Button";
+// import Button from "../generics/button/Button";
 import { TitleLogo } from "../generics/titles/Titles";
 import HamburgerMenu from "./Hamburger";
 import SelectLanguage from "../select/SelectLanguage";
@@ -44,7 +44,7 @@ const ResponsiveNav = () => {
         </ul>
         <SelectLanguage />
 
-        <Button className="hidden sm:flex">Home</Button>
+        {/* <Button className="hidden sm:flex">Home</Button> */}
 
         <HamburgerMenu
           toggle={toggleMenu}
