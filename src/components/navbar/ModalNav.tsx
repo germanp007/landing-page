@@ -8,7 +8,7 @@ interface ModalNavProps {
 const ModalNav: React.FC<ModalNavProps> = ({ isOpen }) => {
   return (
     <div
-      className={`bg-white rounded-xl w-[247px] h-[60vh] fixed right-0 top-32 transform transition-transform duration-300 ease-in-out md:w-[363px] md:h-[75vh] ${
+      className={`bg-white rounded-xl w-[247px] h-[350px] fixed right-0 top-32 transform transition-transform duration-300 ease-in-out md:w-[363px] md:h-[75vh] ${
         isOpen ? "-translate-x-5" : "translate-x-full"
       }`}
     >

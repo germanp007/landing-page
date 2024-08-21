@@ -9,7 +9,7 @@ html {
 }
 
 .hero-section {
-  background-image: url("./assets/images/background-tablet.jpg");
+  background-image: url("./assets/images/background-mobile.png");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -22,7 +22,7 @@ html {
   }
 } */
 
-@media (min-width: 560px) {
+@media (min-width: 780px) {
   .hero-section {
     background-image: url("./assets/images/background-desktop.jpg");
     background-position: bottom;
