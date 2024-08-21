@@ -3,3 +3,20 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+html {
+  scroll-behavior: smooth;
+}
+
+.hero-section {
+  background-image: url("./assets/images/background-tablet.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+@media (min-width: 600px) {
+  .hero-section {
+    background-image: url("./assets/images/background-desktop.jpg");
+  }
+}

@@ -12,12 +12,15 @@ const ResponsiveNav = () => {
   const navLinks = [
     {
       name: "Sobre Nosotros",
+      link: "#sobre-nosotros",
     },
     {
       name: "Tecnologías",
+      link: "#tecnologias",
     },
     {
       name: "Contáctanos",
+      link: "#contactanos",
     },
   ];
 
@@ -32,9 +35,9 @@ const ResponsiveNav = () => {
         <TitleLogo>Tel & Tech Services</TitleLogo>
 
         <ul className="hidden px-4 py-8 lg:flex gap-16 font-medium text-xl text-white">
-          {navLinks.map((link) => (
-            <li key={link.name} className="cursor-pointer">
-              {link.name}
+          {navLinks.map((navItem) => (
+            <li key={navItem.name} className="cursor-pointer">
+              <a href={navItem.link}>{navItem.name}</a>
             </li>
           ))}
         </ul>
