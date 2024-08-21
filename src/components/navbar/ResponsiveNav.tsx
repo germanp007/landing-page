@@ -9,6 +9,18 @@ import ModalNav from "./ModalNav";
 const ResponsiveNav = () => {
   const [isOpen, setIsOpen] = useState(false);
 
+  const navLinks = [
+    {
+      name: "Sobre Nosotros",
+    },
+    {
+      name: "Tecnologías",
+    },
+    {
+      name: "Contáctanos",
+    },
+  ];
+
   const toggleMenu = () => {
     setIsOpen(!isOpen);
   };
@@ -20,9 +32,11 @@ const ResponsiveNav = () => {
         <TitleLogo>Tel & Tech Services</TitleLogo>
 
         <ul className="hidden px-4 py-8 lg:flex gap-16 font-medium text-xl text-white">
-          <li className="cursor-pointer">Sobre Nosotros</li>
-          <li className="cursor-pointer">Tecnologías</li>
-          <li className="cursor-pointer">Contáctanos</li>
+          {navLinks.map((link) => (
+            <li key={link.name} className="cursor-pointer">
+              {link.name}
+            </li>
+          ))}
         </ul>
         <SelectLanguage />
         <Button className="hidden sm:flex">Home</Button>
