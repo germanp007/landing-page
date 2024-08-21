@@ -30,7 +30,7 @@ const ResponsiveNav = () => {
 
   return (
     <>
-      <nav className="w-screen h-32 flex items-center justify-evenly fixed">
+      <nav className="w-screen h-24 md:h-32 flex items-center justify-evenly fixed bg-white/10 backdrop-blur-md border-b border-white/10">
         <a href="#hero-section" className="flex justify-center items-center">
           <img src={icono_original} className="size-[50px] md:size-[68px]" />
           <TitleLogo>Tel & Tech Services</TitleLogo>
