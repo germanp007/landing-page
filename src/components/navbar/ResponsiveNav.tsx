@@ -31,9 +31,10 @@ const ResponsiveNav = () => {
   return (
     <>
       <nav className="w-screen h-32 flex items-center justify-evenly fixed">
-        <img src={icono_original} className="size-[50px] md:size-[68px]" />
-        <TitleLogo>Tel & Tech Services</TitleLogo>
-
+        <a href="#hero-section" className="flex justify-center items-center">
+          <img src={icono_original} className="size-[50px] md:size-[68px]" />
+          <TitleLogo>Tel & Tech Services</TitleLogo>
+        </a>
         <ul className="hidden px-4 py-8 lg:flex gap-16 font-medium text-xl text-white">
           {navLinks.map((navItem) => (
             <li key={navItem.name} className="cursor-pointer">
@@ -42,7 +43,9 @@ const ResponsiveNav = () => {
           ))}
         </ul>
         <SelectLanguage />
+
         <Button className="hidden sm:flex">Home</Button>
+
         <HamburgerMenu
           toggle={toggleMenu}
           isOpen={isOpen}
