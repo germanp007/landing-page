@@ -3,8 +3,8 @@ import icono_original from "../../assets/logos/icono_original.png";
 import Button from "../generics/button/Button";
 import { TitleLogo } from "../generics/titles/Titles";
 import HamburgerMenu from "./Hamburger";
-import ToggleLanguage from "../generics/toggle/ToggleLanguage";
 import SelectLanguage from "../select/SelectLanguage";
+import ModalNav from "./ModalNav";
 
 const ResponsiveNav = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -20,9 +20,9 @@ const ResponsiveNav = () => {
         <TitleLogo>Tel & Tech Services</TitleLogo>
 
         <ul className="hidden px-4 py-8 lg:flex gap-16 font-medium text-xl text-white">
-          <li>Sobre Nosotros</li>
-          <li>Tecnologías</li>
-          <li>Contáctanos</li>
+          <li className="cursor-pointer">Sobre Nosotros</li>
+          <li className="cursor-pointer">Tecnologías</li>
+          <li className="cursor-pointer">Contáctanos</li>
         </ul>
         <SelectLanguage />
         <Button className="hidden sm:flex">Home</Button>
@@ -32,19 +32,7 @@ const ResponsiveNav = () => {
           classname="lg:hidden"
         />
       </nav>
-
-      <div
-        className={`bg-white rounded-xl w-[247px] h-[60vh] fixed right-0 top-32 transform transition-transform duration-300 ease-in-out md:w-[363px] md:h-[75vh] ${
-          isOpen ? "-translate-x-5" : "translate-x-full"
-        }`}
-      >
-        <ul className="px-4 py-8 flex  flex-col gap-12 text-primary font-medium md:text-xl">
-          <ToggleLanguage />
-          <li>Sobre Nosotros</li>
-          <li>Tecnologías</li>
-          <li>Contáctanos</li>
-        </ul>
-      </div>
+      <ModalNav isOpen={isOpen} />
     </>
   );
 };
