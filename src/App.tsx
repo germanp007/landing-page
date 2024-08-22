@@ -1,5 +1,6 @@
 import ResponsiveNav from "./components/navbar/ResponsiveNav";
-import Hero from "./pages/Hero";
+import HelpYou from "./sections/HelpYou";
+import Hero from "./sections/Hero";
 
 const App = () => {
   return (
@@ -9,7 +10,7 @@ const App = () => {
     >
       <ResponsiveNav />
       <Hero />
-      <div className="w-screen h-[1040px] bg-green-700" id="tecnologias"></div>
+      <HelpYou />
       <div className="w-screen h-[1040px] bg-blue-700" id="contactanos"></div>
     </div>
   );
