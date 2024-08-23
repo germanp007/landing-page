@@ -14,7 +14,7 @@ const HelpYou: React.FC = () => {
         <div className="flex-1 relative ">
           <div className="w-[113px] h-[107px] bg-[#A7C6E6] rounded-full absolute top-2 left-1/2 transform -translate-x-1/2"></div>
           <div className="absolute z-10 w-[113px] h-[107px] rounded-full overflow-hidden top-4 left-[45%] transform -translate-x-1/2">
-            <img src={meet} alt="meet" className="w-[113px] h-[107px] " />
+            <img src={meet} alt="meet" className="w-full h-full object-cover" />
           </div>
         </div>
       </div>
