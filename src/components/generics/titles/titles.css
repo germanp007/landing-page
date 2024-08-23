@@ -38,7 +38,7 @@
 }
 
 /* Tamaño mediano (tablets) */
-@media (min-width: 768px) {
+@media (min-width: 650px) {
   .titleLogo {
     width: 198.806px;
     height: auto;
