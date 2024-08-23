@@ -13,10 +13,11 @@ const HelpYou: React.FC = () => {
         </Paragraph>
       </div>
       <div className="flex-1 relative ">
-        <div className="md:size-[290px] bg-[#A7C6E6] rounded-full absolute top-2 left-1/2 transform -translate-x-1/2"></div>
-        <div className="absolute z-10   rounded-full overflow-hidden top-4 left-[45%] transform -translate-x-1/2">
-          <img src={meet} alt="meet" className="w-full h-full object-cover" />
+        <div className="absolute w-[35vw] h-[35vw] rounded-full overflow-hidden z-10">
+          <img src={meet} alt="meet" className="size-full" />
         </div>
+
+        <div className="absolute w-[35vw] h-[35vw] bg-[#A7C6E6] rounded-full bottom-2 left-1/2 transform -translate-x-1/2"></div>
       </div>
     </section>
   );
