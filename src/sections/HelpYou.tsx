@@ -13,7 +13,7 @@ const HelpYou: React.FC = () => {
         </Paragraph>
       </div>
       <div className="flex-1 relative ">
-        <div className="absolute w-[35vw] h-[35vw] rounded-full overflow-hidden z-10">
+        <div className="absolute min-w-[134px] w-[35vw] h-[35vw] rounded-full overflow-hidden z-10 left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2">
           <img src={meet} alt="meet" className="size-full" />
         </div>
 
