@@ -4,7 +4,10 @@ import { Paragraph } from "../components/generics/paragraph/Paragraph";
 import meet from "../assets/images/Ellipse.jpg";
 const HelpYou: React.FC = () => {
   return (
-    <section className="w-full h-[50vh] sm:h-[60vh] md:h-[70vh] lg:h-[85vh] bg-white flex p-6 md:p-12">
+    <section
+      id="help"
+      className="w-full h-[50vh] sm:h-[60vh] md:h-[70vh] lg:h-[85vh] bg-slate-200 flex p-6 md:p-12"
+    >
       <div className="flex-1 flex flex-col gap-6 justify-center">
         <Titles className="text-left w-full h-auto">Podemos ayudarte</Titles>
         <Paragraph className=" w-[174px] sm:w-full ">
