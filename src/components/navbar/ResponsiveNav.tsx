@@ -5,35 +5,11 @@ import { TitleLogo } from "../generics/titles/Titles";
 import HamburgerMenu from "./Hamburger";
 import SelectLanguage from "../select/SelectLanguage";
 import ModalNav from "./ModalNav";
+import useNavbarColor from "../../hooks/useNavbarColor";
 
 const ResponsiveNav = () => {
   const [isOpen, setIsOpen] = useState(false);
-  // useEffect(() => {
-  //   const ul = document.getElementById("links");
-  //   const sectionHelp = document.getElementById("help");
-
-  //   const observer = new IntersectionObserver(
-  //     ([entry]) => {
-  //       if (entry.isIntersecting) {
-  //         ul.classList.remove("text-white");
-  //         ul.classList.add("text-primary");
-  //       } else {
-  //         ul.classList.remove("text-primary");
-  //         ul.classList.add("text-white");
-  //       }
-  //       console.log(entry);
-  //     },
-  //     {
-  //       // root: null,
-  //       rootMargin: "100px 0px 0px 0px", // Ajusta este valor según lo necesites
-  //       threshold: 0.3, // Puedes modificarlo también
-  //     }
-  //   );
-
-  //   observer.observe(sectionHelp);
-
-  //   return () => observer.disconnect();
-  // }, []);
+  useNavbarColor("help", "links", "navbar");
 
   const navLinks = [
     {
