@@ -9,7 +9,7 @@ import useNavbarColor from "../../hooks/useNavbarColor";
 
 const ResponsiveNav = () => {
   const [isOpen, setIsOpen] = useState(false);
-  useNavbarColor("help", "links", "navbar");
+  useNavbarColor("help", "links", "navbar", "titleLogo");
 
   const navLinks = [
     {
@@ -38,7 +38,7 @@ const ResponsiveNav = () => {
       >
         <a href="#hero-section" className="flex justify-center items-center">
           <img src={icono_original} className="size-[50px] md:size-[68px]" />
-          <TitleLogo>Tel & Tech Services</TitleLogo>
+          <TitleLogo id="titleLogo">Tel & Tech Services</TitleLogo>
         </a>
         <ul
           id="links"
