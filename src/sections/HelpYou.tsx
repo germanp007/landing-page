@@ -17,7 +17,7 @@ const HelpYou: React.FC = () => {
           <img src={meet} alt="meet" className="size-full" />
         </div>
 
-        <div className="absolute min-w-[134px] max-w-[400px] max-h-[400px] w-[35vw] h-[35vw] bg-[#A7C6E6] rounded-full bottom-1/2 left-1/2 transform -translate-x-[35%] translate-y-[35%] lg:translate-y-[45%]"></div>
+        <div className="absolute min-w-[134px] max-w-[400px] max-h-[400px] w-[35vw] h-[35vw] bg-[#A7C6E6] rounded-full bottom-1/2 left-1/2 transform -translate-x-[35%] translate-y-[35%] md:translate-y-[40%] lg:translate-y-[45%]"></div>
       </div>
     </section>
   );
