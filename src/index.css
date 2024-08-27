@@ -15,16 +15,24 @@ html {
   /* background-repeat: no-repeat; */
 }
 
-/* @media (min-width: 450px) {
-  .hero-section {
-    /* background-image: url("./assets/images/background-desktop.jpg"); 
-    /* background-position: center; 
-  }
-} */
-
 @media (min-width: 780px) {
   .hero-section {
     background-image: url("./assets/images/background-desktop.jpg");
     background-position: bottom;
   }
+}
+
+/* Para navegadores basados en WebKit (Chrome, Safari) */
+.scroll-container::-webkit-scrollbar {
+  display: none;
+}
+
+/* Para Firefox */
+.scroll-container {
+  scrollbar-width: none; /* Oculta la scrollbar en Firefox */
+}
+
+.scroll-container {
+  -ms-overflow-style: none; /* Oculta la scrollbar en Internet Explorer y Edge */
+  overflow-x: auto; /* Permite el desplazamiento sin mostrar la barra de scroll */
 }

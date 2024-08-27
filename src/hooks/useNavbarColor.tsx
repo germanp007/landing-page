@@ -35,7 +35,7 @@ const useNavbarColor = (
     return () => {
       window.removeEventListener("scroll", handleScroll);
     };
-  }, [sectionId, navId, navbarId]);
+  }, [sectionId, navId, navbarId, titleId]);
 };
 
 export default useNavbarColor;

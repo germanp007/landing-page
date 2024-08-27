@@ -14,7 +14,7 @@ export default {
         complementary: "#A7C6E6", // Azul Claro
         footerBackground: "#231D45", // Fondo de Footer
         greenButton: "#018B6A", // Fondo boton Aprovado
-        sectionBg: "#012E8B", // Fondo Section Services
+        sectionBg: "#041C4B", // Fondo Section Services
       },
     },
   },

@@ -1,6 +1,7 @@
 import ResponsiveNav from "./components/navbar/ResponsiveNav";
 import HelpYou from "./sections/HelpYou";
 import Hero from "./sections/Hero";
+import Services from "./sections/Services";
 
 const App = () => {
   return (
@@ -11,7 +12,7 @@ const App = () => {
       <ResponsiveNav />
       <Hero />
       <HelpYou />
-      <div className="w-screen h-[1040px] bg-blue-700" id="contactanos"></div>
+      <Services />
     </div>
   );
 };
