@@ -4,11 +4,11 @@ import "./card.css";
 
 const Card = () => {
   return (
-    <div className="card flex flex-col">
-      <div className="flex-1">
-        <img src={webApp} alt="Web App" />
+    <div className="card flex flex-col p-4">
+      <div className="flex-1  grid place-content-center">
+        <img src={webApp} alt="Web App" className="w-[70%] m-auto" />
       </div>
-      <div className="flex-1">
+      <div className="flex-1 grid place-content-center">
         <Paragraph className="text-[#111827] text-center text-base font-semibold ">
           Desarollo de App de escritorio
         </Paragraph>
