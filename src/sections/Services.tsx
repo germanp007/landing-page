@@ -9,7 +9,7 @@ const Services = () => {
   return (
     <>
       <section className="bg-sectionBg h-[60vh] w-screen flex flex-col overflow-x-hidden space-y-4 py-4 justify-evenly md:h-screen">
-        <Titles className="text-white w-full text-center">
+        <Titles className="text-white w-full text-center h-auto">
           Nuestros Servicios
         </Titles>
         <div className="flex overflow-x-auto space-x-4 snap-x snap-mandatory scroll-container gap-4 px-6">
