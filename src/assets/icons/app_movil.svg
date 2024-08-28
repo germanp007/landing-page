@@ -1,0 +1,25 @@
+<svg width="98" height="110" viewBox="0 0 98 110" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="app movil">
+<g id="Group">
+<path id="Vector" d="M85 44.5V103H51" stroke="#012E8B" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Oval" fill-rule="evenodd" clip-rule="evenodd" d="M46 108C48.7614 108 51 105.761 51 103C51 100.239 48.7614 98 46 98C43.2386 98 41 100.239 41 103C41 105.761 43.2386 108 46 108Z" stroke="#012E8B" stroke-width="3"/>
+<path id="Oval_2" fill-rule="evenodd" clip-rule="evenodd" d="M85 44C87.7614 44 90 41.7614 90 39C90 36.2386 87.7614 34 85 34C82.2386 34 80 36.2386 80 39C80 41.7614 82.2386 44 85 44Z" stroke="#012E8B" stroke-width="3"/>
+</g>
+<g id="Group_2">
+<path id="Vector_2" d="M7 65.5V7H41" stroke="#012E8B" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Oval_3" fill-rule="evenodd" clip-rule="evenodd" d="M46 2C43.2386 2 41 4.23858 41 7C41 9.76142 43.2386 12 46 12C48.7614 12 51 9.76142 51 7C51 4.23858 48.7614 2 46 2Z" stroke="#012E8B" stroke-width="3"/>
+<path id="Oval_4" fill-rule="evenodd" clip-rule="evenodd" d="M7 66C4.23858 66 2 68.2386 2 71C2 73.7614 4.23858 76 7 76C9.76142 76 12 73.7614 12 71C12 68.2386 9.76142 66 7 66Z" stroke="#012E8B" stroke-width="3"/>
+</g>
+<path id="Combined Shape" fill-rule="evenodd" clip-rule="evenodd" d="M23 20H69V90H23V20ZM28.75 25.8333H63.25V75.4167H28.75V25.8333ZM50.1816 82.5758C50.1816 84.9188 48.3094 86.8182 45.9998 86.8182C43.6903 86.8182 41.818 84.9188 41.818 82.5758C41.818 80.2327 43.6903 78.3333 45.9998 78.3333C48.3094 78.3333 50.1816 80.2327 50.1816 82.5758Z" fill="#3873FF"/>
+<g id="Group_3">
+<rect id="Rectangle" opacity="0.1" x="47" y="51.8762" width="10.381" height="10.381" transform="rotate(-90 47 51.8762)" fill="#3CE1CD"/>
+<rect id="Rectangle_2" opacity="0.1" x="41" y="36.3811" width="10.381" height="10.381" transform="rotate(-90 41 36.3811)" fill="#3CE1CD"/>
+<rect id="Rectangle_3" opacity="0.4" x="60.4951" y="51.8762" width="10.381" height="10.381" transform="rotate(-90 60.4951 51.8762)" fill="#3CE1CD"/>
+<rect id="Rectangle_4" opacity="0.4" x="54.4951" y="36.3811" width="10.381" height="10.381" transform="rotate(-90 54.4951 36.3811)" fill="#3CE1CD"/>
+<rect id="Rectangle_5" opacity="0.7" x="74" y="52.3804" width="10.381" height="10.381" transform="rotate(-90 74 52.3804)" fill="#3CE1CD"/>
+<rect id="Rectangle_6" opacity="0.7" x="67.9905" y="36.3811" width="10.381" height="10.381" transform="rotate(-90 67.9905 36.3811)" fill="#3CE1CD"/>
+<rect id="Rectangle_7" x="87.4858" y="51.8762" width="10.381" height="10.381" transform="rotate(-90 87.4858 51.8762)" fill="#3CE1CD"/>
+<rect id="Rectangle_8" x="81.4858" y="36.3811" width="10.381" height="10.381" transform="rotate(-90 81.4858 36.3811)" fill="#3CE1CD"/>
+</g>
+</g>
+</svg>

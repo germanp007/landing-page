@@ -1,0 +1,38 @@
+<svg width="121" height="169" viewBox="0 0 121 169" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="icon_14">
+<g id="Group">
+<path id="Rectangle" d="M88 95V52H21V95" stroke="url(#paint0_linear_91_435)" stroke-width="5"/>
+<path id="Subtract" fill-rule="evenodd" clip-rule="evenodd" d="M75 95H19V106H75V95ZM58 101C58 102.657 56.6569 104 55 104C53.3431 104 52 102.657 52 101C52 99.3431 53.3431 98 55 98C56.6569 98 58 99.3431 58 101Z" fill="#3873FF"/>
+<g id="Rectangle_2">
+<path d="M47 105H63C63 107.939 64.9999 110.5 67.8507 111.213L73 112.5V115H37V112.5L42.1493 111.213C45.0001 110.5 47 107.939 47 105Z" fill="#3873FF"/>
+</g>
+<path id="Combined Shape" fill-rule="evenodd" clip-rule="evenodd" d="M79 84H103V120H79V84ZM82 87H100V112.5H82V87ZM93.1817 116.182C93.1817 117.387 92.2049 118.364 90.9999 118.364C89.7949 118.364 88.8181 117.387 88.8181 116.182C88.8181 114.977 89.7949 114 90.9999 114C92.2049 114 93.1817 114.977 93.1817 116.182Z" fill="#3873FF"/>
+</g>
+<g id="Group_2">
+<path id="Vector" d="M113 71.5V130H79" stroke="#012E8B" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Oval" fill-rule="evenodd" clip-rule="evenodd" d="M74 135C76.7614 135 79 132.761 79 130C79 127.239 76.7614 125 74 125C71.2386 125 69 127.239 69 130C69 132.761 71.2386 135 74 135Z" stroke="#012E8B" stroke-width="3"/>
+<path id="Oval_2" fill-rule="evenodd" clip-rule="evenodd" d="M113 71C115.761 71 118 68.7614 118 66C118 63.2386 115.761 61 113 61C110.239 61 108 63.2386 108 66C108 68.7614 110.239 71 113 71Z" stroke="#012E8B" stroke-width="3"/>
+</g>
+<g id="Group_3">
+<path id="Vector_2" d="M9 97.5V39H43" stroke="#012E8B" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Oval_3" fill-rule="evenodd" clip-rule="evenodd" d="M48 34C45.2386 34 43 36.2386 43 39C43 41.7614 45.2386 44 48 44C50.7614 44 53 41.7614 53 39C53 36.2386 50.7614 34 48 34Z" stroke="#012E8B" stroke-width="3"/>
+<path id="Oval_4" fill-rule="evenodd" clip-rule="evenodd" d="M9 98C6.23858 98 4 100.239 4 103C4 105.761 6.23858 108 9 108C11.7614 108 14 105.761 14 103C14 100.239 11.7614 98 9 98Z" stroke="#012E8B" stroke-width="3"/>
+</g>
+<g id="Group_4">
+<rect id="Rectangle_3" opacity="0.1" x="15" y="83.8762" width="10.381" height="10.381" transform="rotate(-90 15 83.8762)" fill="#3CE1CD"/>
+<rect id="Rectangle_4" opacity="0.1" x="9" y="68.381" width="10.381" height="10.381" transform="rotate(-90 9 68.381)" fill="#3CE1CD"/>
+<rect id="Rectangle_5" opacity="0.4" x="28.4951" y="83.8762" width="10.381" height="10.381" transform="rotate(-90 28.4951 83.8762)" fill="#3CE1CD"/>
+<rect id="Rectangle_6" opacity="0.4" x="22.4951" y="68.381" width="10.381" height="10.381" transform="rotate(-90 22.4951 68.381)" fill="#3CE1CD"/>
+<rect id="Rectangle_7" opacity="0.7" x="41.9905" y="83.8762" width="10.381" height="10.381" transform="rotate(-90 41.9905 83.8762)" fill="#3CE1CD"/>
+<rect id="Rectangle_8" opacity="0.7" x="35.9905" y="68.381" width="10.381" height="10.381" transform="rotate(-90 35.9905 68.381)" fill="#3CE1CD"/>
+<rect id="Rectangle_9" x="55.4858" y="83.8762" width="10.381" height="10.381" transform="rotate(-90 55.4858 83.8762)" fill="#3CE1CD"/>
+<rect id="Rectangle_10" x="49.4858" y="68.381" width="10.381" height="10.381" transform="rotate(-90 49.4858 68.381)" fill="#3CE1CD"/>
+</g>
+</g>
+<defs>
+<linearGradient id="paint0_linear_91_435" x1="54.5" y1="52" x2="54.5" y2="95" gradientUnits="userSpaceOnUse">
+<stop stop-color="#3873FF"/>
+<stop offset="1" stop-color="#3873FF" stop-opacity="0"/>
+</linearGradient>
+</defs>
+</svg>

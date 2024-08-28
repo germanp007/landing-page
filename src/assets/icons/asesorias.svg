@@ -1,0 +1,27 @@
+<svg width="116" height="120" viewBox="0 0 116 120" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="icon_06">
+<path id="Vector" d="M14 77.2945V114H102V20" stroke="#012E8B" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Oval" fill-rule="evenodd" clip-rule="evenodd" d="M14 77C16.7614 77 19 74.7614 19 72C19 69.2386 16.7614 67 14 67C11.2386 67 9 69.2386 9 72C9 74.7614 11.2386 77 14 77Z" stroke="#012E8B" stroke-width="3"/>
+<path id="Oval_2" fill-rule="evenodd" clip-rule="evenodd" d="M102 20C104.761 20 107 17.7614 107 15C107 12.2386 104.761 10 102 10C99.2386 10 97 12.2386 97 15C97 17.7614 99.2386 20 102 20Z" stroke="#012E8B" stroke-width="3"/>
+<g id="Group">
+<path id="Rectangle" d="M35.0997 49.7002H80.8997V91.5002H35.0997V49.7002Z" fill="url(#paint0_linear_91_290)"/>
+<path id="Union" fill-rule="evenodd" clip-rule="evenodd" d="M65.7 29.9H63.4997C63.4997 26.8624 61.0373 24.4 57.9997 24.4C54.9622 24.4 52.4997 26.8624 52.4997 29.9H50.3H27.4V100.3H88.6V29.9H65.7ZM49.1288 25.5C50.7488 22.2402 54.1126 20 57.9997 20C61.8868 20 65.2507 22.2402 66.8707 25.5H93V104.7H23V25.5H49.1288ZM39.5 29.9003H43.9V37.6003H72.1V29.9003H76.5V42.0003H39.5V29.9003Z" fill="#3873FF"/>
+<path id="Union_2" fill-rule="evenodd" clip-rule="evenodd" d="M66.3077 58.6001L70 62.2924L55.2309 77.0614L55.2307 77.0612L55.2307 77.0613L46 67.8306L49.6923 64.1383L55.2309 69.6769L66.3077 58.6001Z" fill="#3CE1CD"/>
+</g>
+<g id="Group_2">
+<rect id="Rectangle_2" opacity="0.1" x="5" y="46" width="10" height="10" fill="#3CE1CD"/>
+<rect id="Rectangle_3" opacity="0.1" x="47" y="4" width="10" height="10" fill="#3CE1CD"/>
+<rect id="Rectangle_4" opacity="0.4" x="5" y="32" width="10" height="10" fill="#3CE1CD"/>
+<rect id="Rectangle_5" opacity="0.4" x="33" y="4" width="10" height="10" fill="#3CE1CD"/>
+<rect id="Rectangle_6" opacity="0.7" x="5" y="18" width="10" height="10" fill="#3CE1CD"/>
+<rect id="Rectangle_7" opacity="0.7" x="19" y="4" width="10" height="10" fill="#3CE1CD"/>
+<rect id="Rectangle_8" x="5" y="4" width="10" height="10" fill="#3CE1CD"/>
+</g>
+</g>
+<defs>
+<linearGradient id="paint0_linear_91_290" x1="57.9997" y1="49.7002" x2="57.9997" y2="91.5002" gradientUnits="userSpaceOnUse">
+<stop stop-color="#3873FF"/>
+<stop offset="1" stop-color="#3873FF" stop-opacity="0"/>
+</linearGradient>
+</defs>
+</svg>

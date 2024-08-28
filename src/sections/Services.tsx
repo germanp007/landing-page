@@ -13,21 +13,6 @@ const Services = () => {
             <div className="snap-center shrink-0">
               <Card />
             </div>
-            <div className="snap-center shrink-0">
-              <Card />
-            </div>
-            <div className="snap-center shrink-0">
-              <Card />
-            </div>
-            <div className="snap-center shrink-0">
-              <Card />
-            </div>
-            <div className="snap-center shrink-0">
-              <Card />
-            </div>
-            <div className="snap-center shrink-0">
-              <Card />
-            </div>
           </div>
         </div>
       </section>
