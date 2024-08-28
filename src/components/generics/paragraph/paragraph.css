@@ -38,11 +38,11 @@
 @media (min-width: 900px) {
   .paragraphCard {
     width: 271px;
-    height: 45px;
+    height: 210px;
   }
   .paragraph {
-    width: 500px;
-    height: 183px;
+    width: 280px;
+    height: 95px;
     font-size: 25px;
     line-height: 42px; /* 168% */
   }
