@@ -14,11 +14,11 @@ interface CartProps {
 }
 const Card: React.FC<CartProps> = ({ element }) => {
   return (
-    <div className="card flex flex-col p-4 md:p-10 transition-all duration-300 lg:p-2">
-      <div className="flex-1  grid place-content-center lg:w-1/2">
+    <div className="card flex flex-col p-4 md:p-10 transition-all duration-300 lg:p-2 lg:flex-row">
+      <div className="flex-1  grid place-content-center lg:order-1 lg:w-1/2 ">
         <img
           src={element.icon}
-          alt="Web App"
+          alt={element.title}
           className={`${
             element.title === "E-Comerce"
               ? "w-[120%] lg:w-[70%]"
@@ -26,12 +26,12 @@ const Card: React.FC<CartProps> = ({ element }) => {
           } m-auto`}
         />
       </div>
-      <div className="flex-1 grid place-content-center ">
+      <div className="flex-1 grid place-content-center lg:w-full lg:order-3 lg:mt-4">
         <Paragraph className="text-[#111827] text-center font-semibold ">
           {element.title}
         </Paragraph>
       </div>
-      <div className="flex-1 grid place-content-center ">
+      <div className="flex-1 grid place-content-center lg:w-1/2 lg:order-2">
         <ParagraphCard className="m-auto text-center">
           {element.description}
         </ParagraphCard>
