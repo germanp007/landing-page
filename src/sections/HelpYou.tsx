@@ -6,11 +6,11 @@ const HelpYou: React.FC = () => {
   return (
     <section
       id="help"
-      className="w-full h-[50vh] sm:h-[60vh] md:h-[70vh] lg:h-[85vh] bg-white flex p-6 md:p-12"
+      className="w-full h-[50vh] sm:h-[75vh] md:h-[85vh]  bg-white flex p-6 md:p-12"
     >
       <div className="flex-1 flex flex-col gap-6 justify-center">
         <Titles className="text-left w-full h-auto">Podemos ayudarte</Titles>
-        <Paragraph className="  sm:w-full ">
+        <Paragraph className="line-clamp-5 sm:w-full sm:line-clamp-none">
           En Tel & Tech contamos con el mejor equipo capacitado para ayudarte a
           que CREES eso que necesitas para hacer crecer tu negocio. Con un
           equipo apasionado y en constante aprendizaje, garantizamos soluciones

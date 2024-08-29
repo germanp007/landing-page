@@ -14,25 +14,25 @@ interface CartProps {
 }
 const Card: React.FC<CartProps> = ({ element }) => {
   return (
-    <div className="card flex flex-col p-4 md:p-10 transition-all duration-300 lg:p-2 lg:flex-row">
-      <div className="flex-1  grid place-content-center lg:order-1 lg:w-1/2 ">
+    <div className="card flex flex-col p-4 md:p-10 transition-all duration-300 lg:p-6 lg:flex-row lg:flex-wrap lg:items-center">
+      <div className="flex-1 grid place-content-center lg:w-1/3 lg:order-1">
         <img
           src={element.icon}
           alt={element.title}
           className={`${
             element.title === "E-Comerce"
-              ? "w-[120%] lg:w-[70%]"
-              : "w-[90%] lg:w-[60%]"
+              ? "w-[120%] lg:w-[120%]"
+              : "w-[70%] lg:w-[80%]"
           } m-auto`}
         />
       </div>
-      <div className="flex-1 grid place-content-center lg:w-full lg:order-3 lg:mt-4">
-        <Paragraph className="text-[#111827] text-center font-semibold ">
+      <div className="flex-1 grid place-content-center lg:w-full lg:order-3 ">
+        <Paragraph className="text-[#111827] text-center font-semibold lg:w-[400px] lg:truncate">
           {element.title}
         </Paragraph>
       </div>
-      <div className="flex-1 grid place-content-center lg:w-1/2 lg:order-2">
-        <ParagraphCard className="m-auto text-center">
+      <div className="flex-1 grid place-content-center lg:w-2/3 lg:order-2">
+        <ParagraphCard className="m-auto text-center lg:line-clamp-4">
           {element.description}
         </ParagraphCard>
       </div>
