@@ -15,8 +15,6 @@
 /* Tamaño mediano (tablets) */
 @media (min-width: 700px) {
   .paragraph {
-    width: auto;
-    height: auto;
     font-size: 24px;
     line-height: 42px;
   }
@@ -38,11 +36,11 @@
 @media (min-width: 900px) {
   .paragraphCard {
     width: 271px;
-    height: 210px;
+    height: auto;
   }
   .paragraph {
     width: 280px;
-    height: 95px;
+    height: auto;
     font-size: 25px;
     line-height: 42px; /* 168% */
   }

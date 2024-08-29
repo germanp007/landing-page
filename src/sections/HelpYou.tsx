@@ -10,9 +10,11 @@ const HelpYou: React.FC = () => {
     >
       <div className="flex-1 flex flex-col gap-6 justify-center">
         <Titles className="text-left w-full h-auto">Podemos ayudarte</Titles>
-        <Paragraph className=" w-[174px] sm:w-full ">
+        <Paragraph className="  sm:w-full ">
           En Tel & Tech contamos con el mejor equipo capacitado para ayudarte a
-          que CREES eso que necesitas para hacer crecer tu negocio.
+          que CREES eso que necesitas para hacer crecer tu negocio. Con un
+          equipo apasionado y en constante aprendizaje, garantizamos soluciones
+          tecnológicas a la vanguardia.
         </Paragraph>
       </div>
       <div className="flex-1 relative ">

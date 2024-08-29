@@ -13,3 +13,10 @@
     height: 524px;
   }
 }
+
+@media (min-width: 1000px) {
+  .card {
+    width: 474px;
+    height: 223px;
+  }
+}
