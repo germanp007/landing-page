@@ -8,7 +8,7 @@ import { SERVICES_DATA } from "../utils/constants";
 const Services = () => {
   return (
     <>
-      <section className="bg-sectionBg h-[60vh] w-screen flex flex-col overflow-x-hidden space-y-4 py-4 justify-evenly md:h-screen">
+      <section className="bg-sectionBg h-[60vh] w-screen flex flex-col overflow-x-hidden space-y-4 py-4 justify-evenly sm700:h-[70vh]">
         <Titles className="text-white w-full text-center h-auto">
           Nuestros Servicios
         </Titles>

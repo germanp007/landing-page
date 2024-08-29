@@ -16,6 +16,9 @@ export default {
         greenButton: "#018B6A", // Fondo boton Aprovado
         sectionBg: "#041C4B", // Fondo Section Services
       },
+      screens: {
+        sm700: "700px", // Define el nuevo punto de interrupción
+      },
     },
   },
   plugins: [],
