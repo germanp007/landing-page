@@ -1,50 +1,35 @@
-# React + TypeScript + Vite
+# Tel & Tech Services - Landing Page
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+![Tel & Tech Services Logo](src/assets/logos/icono_original.png)
 
-Currently, two official plugins are available:
+## Descripción
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Este proyecto es una landing page para **Tel & Tech Services**, diseñada para destacar los servicios y productos que ofrece la empresa. La landing page es responsiva y está optimizada para ofrecer una experiencia de usuario rápida y fluida.
 
-## Expanding the ESLint configuration
+## Tecnologías Utilizadas
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+- **React**: Biblioteca de JavaScript para construir interfaces de usuario.
+- **Vite**: Herramienta de desarrollo rápida y ligera para proyectos de frontend.
+- **Tailwind CSS**: Framework de utilidades CSS para estilizar la página de manera rápida y consistente.
+- **Vanilla CSS**: Utilizado para agregar estilos personalizados adicionales.
 
-- Configure the top-level `parserOptions` property like this:
+## Características
 
-```js
-export default tseslint.config({
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
-```
+- **Diseño Responsivo**: La landing page se adapta a diferentes tamaños de pantalla y dispositivos.
+- **Optimización de Desempeño**: Utilizando Vite, el proyecto se beneficia de tiempos de compilación y recarga rápida durante el desarrollo.
+- **Estilos Personalizados**: Tailwind CSS se combina con Vanilla CSS para asegurar un diseño único y atractivo.
 
-- Replace `tseslint.configs.recommended` to `tseslint.configs.recommendedTypeChecked` or `tseslint.configs.strictTypeChecked`
-- Optionally add `...tseslint.configs.stylisticTypeChecked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and update the config:
+## Estructura del Proyecto
 
-```js
-// eslint.config.js
-import react from 'eslint-plugin-react'
+- **src/**: Contiene todos los archivos fuente, incluyendo componentes de React, archivos CSS, y assets.
+- **src/utils**: Contiene todas las constantes utilizadas en el proyecto.
+- **src/hooks**: Contiene los hooks personalizados para usar.
+- **src/components**: Contiene los componentes reutilizables.
+- **src/sections**: Contiene las distintas secciones de la landing page.
+- **src/hooks**: Contiene los hooks personalizados para usar.
+- **public/**: Archivos estáticos públicos, como imágenes y favicon.
+- **index.html**: Archivo HTML principal que carga la aplicación React.
 
-export default tseslint.config({
-  // Set the react version
-  settings: { react: { version: '18.3' } },
-  plugins: {
-    // Add the react plugin
-    react,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended rules
-    ...react.configs.recommended.rules,
-    ...react.configs['jsx-runtime'].rules,
-  },
-})
-```
+---
+
+Desarrollado con ❤️ por **German Pinto**.
