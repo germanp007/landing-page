@@ -1,6 +1,7 @@
 import "./footer.css";
 import logo_gris from "../../assets/logos/logo_gris.svg";
 import { TitleLogo } from "../generics/titles/Titles";
+import { Paragraph } from "../generics/paragraph/Paragraph";
 
 export const Footer = () => {
   return (
@@ -11,7 +12,17 @@ export const Footer = () => {
           Tel & Tech Services
         </TitleLogo>
       </div>
-      <div className=""></div>
+      <div className="flex flex-col justify-center items-start gap-2 px-8">
+        <Paragraph className="text-[12px] text-white font-bold">
+          Sobre Nosotros
+        </Paragraph>
+        <Paragraph className="text-[12px] text-white font-bold">
+          Redes Sociales
+        </Paragraph>
+        <Paragraph className="text-[12px] text-white font-bold">
+          Contacto
+        </Paragraph>
+      </div>
     </footer>
   );
 };
