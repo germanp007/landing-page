@@ -7,8 +7,12 @@ export const Footer = () => {
   return (
     <footer className="footer grid grid-cols-2">
       <div className="flex flex-col justify-center items-center gap-4">
-        <img src={logo_gris} alt="logo" className="size-[50px]" />
-        <TitleLogo className="text-[12px]  font-normal">
+        <img
+          src={logo_gris}
+          alt="logo"
+          className="size-[50px] sm:w-[80px] sm:h-[70px] "
+        />
+        <TitleLogo className="text-[12px]  font-normal sm:text-[16px] sm:tracking-[6.4px]">
           Tel & Tech Services
         </TitleLogo>
       </div>
