@@ -2,6 +2,7 @@ import React from "react";
 import "./input.css";
 interface InputProps {
   type?: string;
+  title: string;
   name: string;
   placeholder: string;
   id: string;
@@ -12,6 +13,7 @@ interface InputProps {
 const Input: React.FC<InputProps> = ({
   id,
   type,
+  title,
   name,
   placeholder,
   className,
@@ -19,7 +21,7 @@ const Input: React.FC<InputProps> = ({
   return (
     <div className="flex flex-col gap-3 mt-4">
       <label htmlFor={id} className={`${className} inputLabel `}>
-        {name}
+        {title}
       </label>
 
       {type === "textarea" ? (
