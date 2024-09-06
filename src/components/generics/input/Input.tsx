@@ -29,6 +29,7 @@ const Input: React.FC<InputProps> = ({
           id={id}
           placeholder={placeholder}
           className={`${className} textareaClass`}
+          name={name}
         ></textarea>
       ) : (
         <input

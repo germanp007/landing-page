@@ -9,24 +9,28 @@ const Contact = () => {
       <Paragraph>Te invitamos a llenar el siguiente formulario.</Paragraph>
       <form>
         <Input
-          title="Nombre y Apellido"
+          name="name"
           type="text"
+          title="Nombre y Apellido"
           placeholder="Juan Perez"
           id="name"
         />
         <Input
+          name="telefono"
           title="Telefono"
           type="number"
           placeholder="01135902366"
           id="telefono"
         />
         <Input
+          name="email"
           title="Correo Electronico"
           type="email"
           placeholder="ejemplo@gmail.com"
           id="email"
         />
         <Input
+          name="consulta"
           title="Consulta"
           type="textarea"
           placeholder="Escriba aqui su consulta"
