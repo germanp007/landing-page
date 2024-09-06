@@ -17,7 +17,7 @@ const Input: React.FC<InputProps> = ({
   className,
 }) => {
   return (
-    <div className="flex flex-col gap-3">
+    <div className="flex flex-col gap-3 mt-4">
       <label htmlFor={id} className={`${className} inputLabel `}>
         {name}
       </label>

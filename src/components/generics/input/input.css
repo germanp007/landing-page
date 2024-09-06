@@ -28,9 +28,9 @@
 }
 
 .textareaClass {
-  width: 327px;
+  width: auto;
   height: 133px;
-
+  padding: 0.5rem;
   flex-shrink: 0;
   border-radius: 5px;
   border: 1px solid #000;

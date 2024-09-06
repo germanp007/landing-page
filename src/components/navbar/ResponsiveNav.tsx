@@ -9,7 +9,7 @@ import useNavbarColor from "../../hooks/useNavbarColor";
 
 const ResponsiveNav = () => {
   const [isOpen, setIsOpen] = useState(false);
-  useNavbarColor("help", "links", "navbar", "titleLogo");
+  useNavbarColor(["help", "contact"], "links", "navbar", "titleLogo");
 
   const navLinks = [
     {
@@ -51,8 +51,6 @@ const ResponsiveNav = () => {
           ))}
         </ul>
         <SelectLanguage />
-
-        {/* <Button className="hidden sm:flex">Home</Button> */}
 
         <HamburgerMenu
           toggle={toggleMenu}
