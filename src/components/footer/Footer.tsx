@@ -5,7 +5,7 @@ import { Paragraph } from "../generics/paragraph/Paragraph";
 
 export const Footer = () => {
   return (
-    <footer className="footer grid grid-cols-2">
+    <footer className="footer grid grid-cols-2 md:grid-cols-4">
       <div className="flex flex-col justify-center items-center gap-4">
         <img
           src={logo_gris}
@@ -16,16 +16,22 @@ export const Footer = () => {
           Tel & Tech Services
         </TitleLogo>
       </div>
-      <div className="flex flex-col justify-center items-start gap-2 px-8">
-        <Paragraph className="text-[12px] text-white font-bold">
-          Sobre Nosotros
-        </Paragraph>
-        <Paragraph className="text-[12px] text-white font-bold">
-          Redes Sociales
-        </Paragraph>
-        <Paragraph className="text-[12px] text-white font-bold">
-          Contacto
-        </Paragraph>
+      <div className="flex flex-col justify-center items-start gap-2 px-8 ">
+        <div>
+          <Paragraph className="text-[12px] text-white font-bold">
+            Sobre Nosotros
+          </Paragraph>
+        </div>
+        <div>
+          <Paragraph className="text-[12px] text-white font-bold">
+            Redes Sociales
+          </Paragraph>
+        </div>
+        <div>
+          <Paragraph className="text-[12px] text-white font-bold">
+            Contacto
+          </Paragraph>
+        </div>
       </div>
     </footer>
   );
