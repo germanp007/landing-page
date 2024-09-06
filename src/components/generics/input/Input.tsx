@@ -37,6 +37,7 @@ const Input: React.FC<InputProps> = ({
         <input
           type={type}
           id={id}
+          name={name}
           placeholder={placeholder}
           className={`${className} ${
             type === "email" ? "inputEmail" : "inputClass"
