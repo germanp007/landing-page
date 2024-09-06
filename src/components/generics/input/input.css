@@ -3,6 +3,7 @@
   flex-shrink: 0;
   border: 0.3px solid black;
   border-radius: 10px;
+  padding-left: 0.5rem;
 }
 
 .inputClass {
@@ -10,7 +11,7 @@
   height: 40px;
 }
 .inputLabel {
-  width: 141px;
+  width: auto;
   height: 22px;
   flex-shrink: 0;
   color: var(--1, #3157a7);
