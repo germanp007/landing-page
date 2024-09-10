@@ -6,8 +6,10 @@ interface InputProps {
   name: string;
   placeholder: string;
   id: string;
-  // children: ReactNode;
   className?: string;
+  onChange: (
+    event: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>
+  ) => void;
 }
 
 const Input: React.FC<InputProps> = ({
@@ -17,6 +19,7 @@ const Input: React.FC<InputProps> = ({
   name,
   placeholder,
   className,
+  onChange,
 }) => {
   return (
     <div className="flex flex-col gap-3 mt-4">
@@ -30,6 +33,7 @@ const Input: React.FC<InputProps> = ({
           placeholder={placeholder}
           className={`${className} textareaClass`}
           name={name}
+          onChange={onChange}
         ></textarea>
       ) : (
         <input
@@ -40,6 +44,7 @@ const Input: React.FC<InputProps> = ({
           className={`${className} ${
             type === "email" ? "inputEmail" : "inputClass"
           }`}
+          onChange={onChange}
         />
       )}
     </div>
