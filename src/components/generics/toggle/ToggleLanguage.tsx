@@ -15,9 +15,8 @@ const ToggleLanguage: React.FC = () => {
   return (
     <div className="w-[192px] h-[41px] flex m-auto md:w-[280px]">
       {languages.map((element) => (
-        <>
+        <div key={element.value}>
           <button
-            key={element.value}
             className={`flex-1 h-full flex justify-center items-center gap-2 md:gap-4 first:rounded-s-full last:rounded-e-full ${
               selected === element.value
                 ? "bg-primary text-white"
@@ -32,7 +31,7 @@ const ToggleLanguage: React.FC = () => {
             />
             {element.name}
           </button>
-        </>
+        </div>
       ))}
     </div>
   );

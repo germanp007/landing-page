@@ -7,7 +7,8 @@ import useForm from "../hooks/useForm";
 const Contact = () => {
   const { values, handleChange } = useForm();
 
-  const handleSubmit = () => {
+  const handleSubmit = (event: { preventDefault: () => void }) => {
+    event.preventDefault();
     console.log(values);
   };
 

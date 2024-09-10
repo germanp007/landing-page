@@ -44,7 +44,7 @@ export const SERVICES_DATA = [
     icon: contenidoWeb,
   },
   {
-    id: 5,
+    id: 6,
     title: "Compra y venta de productos digitales",
     description:
       "Explora el mundo de los productos digitales con nuestras soluciones de compra y venta. Ofrecemos una plataforma segura y eficiente para adquirir y comercializar bienes electrónicos como eBooks, cursos en línea, software, plantillas y más.",
