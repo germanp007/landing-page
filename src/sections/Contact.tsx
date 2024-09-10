@@ -7,9 +7,9 @@ import useForm from "../hooks/useForm";
 const Contact = () => {
   const { values, handleChange } = useForm();
 
-  // const handleSubmit = () => {
-  //   console.log(values);
-  // };
+  const handleSubmit = () => {
+    console.log(values);
+  };
 
   return (
     <section
@@ -20,13 +20,14 @@ const Contact = () => {
       <Paragraph className="w-auto">
         Te invitamos a llenar el siguiente formulario.
       </Paragraph>
-      <form>
+      <form onSubmit={handleSubmit}>
         <Input
           name="name"
           type="text"
           title="Nombre y Apellido"
           placeholder="Juan Perez"
           id="name"
+          value={values.name}
           onChange={handleChange}
         />
         <Input
@@ -35,6 +36,7 @@ const Contact = () => {
           type="number"
           placeholder="01135902366"
           id="telefono"
+          value={values.telefono}
           onChange={handleChange}
         />
         <Input
@@ -43,6 +45,7 @@ const Contact = () => {
           type="email"
           placeholder="ejemplo@gmail.com"
           id="email"
+          value={values.email}
           onChange={handleChange}
         />
         <Input
@@ -51,6 +54,7 @@ const Contact = () => {
           type="textarea"
           placeholder="Escriba aqui su consulta"
           id="consulta"
+          value={values.consulta}
           onChange={handleChange}
         />
       </form>

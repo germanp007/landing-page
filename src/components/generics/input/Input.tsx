@@ -7,6 +7,7 @@ interface InputProps {
   placeholder: string;
   id: string;
   className?: string;
+  value: string;
   onChange: (
     event: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>
   ) => void;
@@ -19,6 +20,7 @@ const Input: React.FC<InputProps> = ({
   name,
   placeholder,
   className,
+  value,
   onChange,
 }) => {
   return (
@@ -34,6 +36,7 @@ const Input: React.FC<InputProps> = ({
           className={`${className} textareaClass`}
           name={name}
           onChange={onChange}
+          value={value}
         ></textarea>
       ) : (
         <input
