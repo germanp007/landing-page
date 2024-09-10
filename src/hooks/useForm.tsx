@@ -18,9 +18,10 @@ const useForm = () => {
   const handleChange = (
     event: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>
   ) => {
+    const { name, value } = event.target;
     setValues({
       ...values,
-      [event.target.name]: event.target.value,
+      [name]: value,
     });
   };
   return {

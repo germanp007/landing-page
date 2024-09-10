@@ -57,6 +57,7 @@ const Contact = () => {
           value={values.consulta}
           onChange={handleChange}
         />
+        <button type="submit">Enviar</button>
       </form>
       <img
         src={marcaAguaTablet}
