@@ -58,7 +58,12 @@ const Contact = () => {
           value={values.consulta}
           onChange={handleChange}
         />
-        <button type="submit">Enviar</button>
+        <button
+          type="submit"
+          className="bg-primary text-white py-2 px-4 mt-2 rounded-lg"
+        >
+          Enviar
+        </button>
       </form>
       <img
         src={marcaAguaTablet}
