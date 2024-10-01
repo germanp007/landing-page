@@ -16,5 +16,18 @@ export const ES = {
   services: {
     title: "Nuestros Servicios",
   },
-  contactUs: {},
+  contactUs: {
+    title: "Contáctanos",
+    subtitle: "Te invitamos a llenar el siguiente formulario.",
+    form: {
+      name: "Nombre y Apellido",
+      phone: "Telefono",
+      email: "Correo Electronico",
+      message: "Consulta",
+    },
+    footer: {
+      copyright: "Todos los derechos reservados",
+      nosotros,
+    },
+  },
 };
