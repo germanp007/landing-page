@@ -27,7 +27,11 @@ export const ES = {
     },
     footer: {
       copyright: "Todos los derechos reservados",
-      nosotros,
+      nosotros: "Sobre Nosotros",
+      social: "Redes Sociales",
+      contacto: {
+        title: "Contacto",
+      },
     },
   },
 };
