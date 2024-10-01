@@ -5,8 +5,9 @@ export const EN = {
     contact: "Contact Us",
   },
   hero: {
-    title: "The Solution You Are Looking For",
+    title: "The Solution You need",
     subtitle: "In One Place",
+    button: "Services",
   },
   aboutUs: {
     title: "We Can Help You",

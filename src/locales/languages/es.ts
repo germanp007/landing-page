@@ -7,6 +7,7 @@ export const ES = {
   hero: {
     title: "La Solucion que buscas",
     subtitle: "en un solo lugar",
+    button: "Ver Servicios",
   },
   aboutUs: {
     title: "Podemos Ayudarte",

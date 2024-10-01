@@ -2,6 +2,7 @@
 import eeuu from "../../assets/flags/flag-us-svgrepo-com.svg";
 import spain from "../../assets/flags/flag-for-flag-spain-svgrepo-com.svg";
 import { useState } from "react";
+import { useTranslation } from "react-i18next";
 
 interface LanguageProps {
   name: string;
@@ -14,9 +15,15 @@ const SelectLanguage = () => {
     isOpen: false,
   });
 
+  const { i18n } = useTranslation();
+
+  const changeLanguage = (lng: string | undefined) => {
+    i18n.changeLanguage(lng);
+  };
+
   const languages: LanguageProps[] = [
-    { name: "English", value: "English", flag: eeuu },
-    { name: "Spanish", value: "Spanish", flag: spain },
+    { name: "English", value: "en", flag: eeuu },
+    { name: "Spanish", value: "es", flag: spain },
   ];
 
   const handleChange = (value: LanguageProps) => {
@@ -32,7 +39,7 @@ const SelectLanguage = () => {
         className="flex items-center border-2 border-primary rounded-xl w-[150px] h-12 px-2 cursor-pointer"
       >
         <img
-          src={languages.find((lang) => lang.value === selected.language)?.flag}
+          src={languages.find((lang) => lang.name === selected.language)?.flag}
           alt={selected.language}
           className="w-6 h-6 mr-2"
         />
@@ -52,7 +59,12 @@ const SelectLanguage = () => {
                 alt={language.name}
                 className="w-6 h-6 mr-2"
               />
-              <span className="font-semibold">{language.name}</span>
+              <span
+                className="font-semibold"
+                onClick={() => changeLanguage(language.value)}
+              >
+                {language.name}
+              </span>
             </div>
           ))}
         </div>
