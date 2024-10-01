@@ -13,7 +13,7 @@ const Button: React.FC<ButtonProps> = ({ children, className }) => {
   if (children == "Enviar") {
     return <button className={`${className} send`}>{children}</button>;
   }
-  if (children == "Ver Servicios") {
+  if (children == "Ver Servicios" || children == "Services") {
     return <button className={`${className} servicios`}>{children}</button>;
   }
 };

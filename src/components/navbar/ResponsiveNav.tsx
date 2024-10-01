@@ -6,22 +6,24 @@ import HamburgerMenu from "./Hamburger";
 import SelectLanguage from "../select/SelectLanguage";
 import ModalNav from "./ModalNav";
 import useNavbarColor from "../../hooks/useNavbarColor";
+import { useTranslation } from "react-i18next";
 
 const ResponsiveNav = () => {
   const [isOpen, setIsOpen] = useState(false);
   useNavbarColor(["help", "contact"], "links", "navbar", "titleLogo");
+  const { t } = useTranslation();
 
   const navLinks = [
     {
-      name: "Sobre Nosotros",
+      name: "navbar.about",
       link: "#sobre-nosotros",
     },
     {
-      name: "Tecnologías",
+      name: "navbar.tech",
       link: "#tecnologias",
     },
     {
-      name: "Contáctanos",
+      name: "navbar.contact",
       link: "#contactanos",
     },
   ];
@@ -46,7 +48,7 @@ const ResponsiveNav = () => {
         >
           {navLinks.map((navItem) => (
             <li key={navItem.name} className="cursor-pointer">
-              <a href={navItem.link}>{navItem.name}</a>
+              <a href={navItem.link}>{t(navItem.name)}</a>
             </li>
           ))}
         </ul>
