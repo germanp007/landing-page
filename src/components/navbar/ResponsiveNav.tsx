@@ -16,15 +16,15 @@ const ResponsiveNav = () => {
   const navLinks = [
     {
       name: "navbar.about",
-      link: "#sobre-nosotros",
+      link: "#help",
     },
     {
       name: "navbar.tech",
-      link: "#tecnologias",
+      link: "#tech",
     },
     {
       name: "navbar.contact",
-      link: "#contactanos",
+      link: "#contact",
     },
   ];
 

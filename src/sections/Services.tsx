@@ -10,7 +10,10 @@ const Services = () => {
   const { t } = useTranslation();
   return (
     <>
-      <section className="bg-sectionBg w-screen flex flex-col overflow-x-hidden space-y-4 py-4 justify-evenly sm700:min-h-[80vh] ">
+      <section
+        id="tech"
+        className="bg-sectionBg w-screen flex flex-col overflow-x-hidden space-y-4 py-4 justify-evenly sm700:min-h-[80vh] "
+      >
         <Titles className="text-white w-full text-center h-auto">
           {t("services.title")}
         </Titles>
