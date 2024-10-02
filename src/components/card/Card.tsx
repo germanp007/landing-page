@@ -1,6 +1,7 @@
 import React from "react";
 import { Paragraph, ParagraphCard } from "../generics/paragraph/Paragraph";
 import "./card.css";
+import { useTranslation } from "react-i18next";
 
 interface ElementProps {
   id: number;
@@ -13,6 +14,8 @@ interface CartProps {
   element: ElementProps;
 }
 const Card: React.FC<CartProps> = ({ element }) => {
+  const { t } = useTranslation();
+
   return (
     <div className="card flex flex-col p-4 md:p-10 transition-all duration-300 lg:p-6 lg:flex-row lg:flex-wrap lg:items-center">
       <div className="flex-1 grid place-content-center lg:w-1/3 lg:order-1">
@@ -28,12 +31,12 @@ const Card: React.FC<CartProps> = ({ element }) => {
       </div>
       <div className="flex-1 grid place-content-center lg:w-full lg:order-3 ">
         <Paragraph className="text-[#111827] text-center font-semibold lg:w-[400px] lg:truncate">
-          {element.title}
+          {t(element.title)}
         </Paragraph>
       </div>
       <div className="flex-1 grid place-content-center lg:w-2/3 lg:order-2">
         <ParagraphCard className="m-auto text-center lg:line-clamp-4">
-          {element.description}
+          {t(element.description)}
         </ParagraphCard>
       </div>
     </div>

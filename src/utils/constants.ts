@@ -10,44 +10,38 @@ import {
 export const SERVICES_DATA = [
   {
     id: 1,
-    title: "Desarrollo de App de Escritorio",
-    description:
-      "Creamos aplicaciones robustas y personalizadas para Windows y macOS, diseñadas para optimizar tus procesos y mejorar la productividad. ",
+    title: "services.services.web.title",
+    description: "services.services.web.description",
     icon: webApp,
   },
   {
     id: 2,
-    title: "Desarrollo de Apps Móviles",
-    description:
-      "Ofrecemos servicios completos de desarrollo de apps para iOS y Android, desde la conceptualización y el diseño hasta la implementación y el mantenimiento.",
+    title: "services.services.mobile.title",
+    description: "services.services.mobile.description",
     icon: appMovile,
   },
   {
     id: 3,
-    title: "E-Comerce",
-    description:
-      "Impulsa tu negocio al mundo digital con nuestras soluciones de ecommerce. Creamos tiendas en línea personalizadas y optimizadas para ofrecer una experiencia de compra fluida y segura.",
+    title: "services.services.ecommerce.title",
+    description: "services.services.ecommerce.description",
     icon: ecomerce,
   },
   {
     id: 4,
-    title: "Asesorías tecnológicas",
-    description:
-      "Ofrecemos soluciones personalizadas para abordar tus desafíos tecnológicos, desde la implementación de nuevas herramientas hasta la mejora de sistemas existentes. ",
+    title: "services.services.consultor.title",
+    description: "services.services.consultor.description",
     icon: asesorias,
   },
   {
     id: 5,
-    title: "Desarollo de contenido web",
-    description:
-      "Atrae y retén a tus usuarios con contenido web de alta calidad y relevancia. Ofrecemos servicios integrales de desarrollo de contenido, desde la creación de textos optimizados para SEO hasta la producción de imágenes y videos atractivos. ",
+    title: "services.services.content.title",
+    description: "services.services.content.description",
     icon: contenidoWeb,
   },
   {
     id: 6,
-    title: "Compra y venta de productos digitales",
-    description:
-      "Explora el mundo de los productos digitales con nuestras soluciones de compra y venta. Ofrecemos una plataforma segura y eficiente para adquirir y comercializar bienes electrónicos como eBooks, cursos en línea, software, plantillas y más.",
+    title: "services.services.sales.title",
+    description: "services.services.sales.description",
     icon: venta_productos,
   },
 ];

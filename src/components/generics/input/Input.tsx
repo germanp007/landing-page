@@ -1,5 +1,6 @@
 import React from "react";
 import "./input.css";
+import { useTranslation } from "react-i18next";
 interface InputProps {
   type?: string;
   title: string;
@@ -23,10 +24,12 @@ const Input: React.FC<InputProps> = ({
   value,
   onChange,
 }) => {
+  const { t } = useTranslation();
+
   return (
     <div className="flex flex-col gap-3 mt-4">
       <label htmlFor={id} className={`${className} inputLabel `}>
-        {title}
+        {t(title)}
       </label>
 
       {type === "textarea" ? (

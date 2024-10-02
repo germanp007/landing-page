@@ -3,9 +3,12 @@ import { Paragraph } from "../components/generics/paragraph/Paragraph";
 import { Titles } from "../components/generics/titles/Titles";
 import marcaAguaTablet from "../assets/images/marca-agua-tablet.png";
 import useForm from "../hooks/useForm";
+import { useTranslation } from "react-i18next";
 
 const Contact = () => {
   const { values, handleChange } = useForm();
+
+  const { t } = useTranslation();
 
   const handleSubmit = (event: { preventDefault: () => void }) => {
     event.preventDefault();
@@ -17,15 +20,13 @@ const Contact = () => {
       className="relative min-h-[70vh] p-8  md:p-16 overflow-hidden"
       id="contact"
     >
-      <Titles>Contáctanos</Titles>
-      <Paragraph className="w-auto">
-        Te invitamos a llenar el siguiente formulario.
-      </Paragraph>
+      <Titles>{t("contactUs.title")}</Titles>
+      <Paragraph className="w-auto">{t("contactUs.subtitle")}</Paragraph>
       <form onSubmit={handleSubmit}>
         <Input
           name="name"
           type="text"
-          title="Nombre y Apellido"
+          title="contactUs.form.name"
           placeholder="Juan Perez"
           id="name"
           value={values.name}
@@ -33,7 +34,7 @@ const Contact = () => {
         />
         <Input
           name="telefono"
-          title="Telefono"
+          title="contactUs.form.phone"
           type="number"
           placeholder="01135902366"
           id="telefono"
@@ -42,7 +43,7 @@ const Contact = () => {
         />
         <Input
           name="email"
-          title="Correo Electronico"
+          title="contactUs.form.email"
           type="email"
           placeholder="ejemplo@gmail.com"
           id="email"
@@ -51,7 +52,7 @@ const Contact = () => {
         />
         <Input
           name="consulta"
-          title="Consulta"
+          title="contactUs.form.message"
           type="textarea"
           placeholder="Escriba aqui su consulta"
           id="consulta"
